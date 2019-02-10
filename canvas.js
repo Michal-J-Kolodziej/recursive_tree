@@ -26,7 +26,7 @@ let startLineSize = canvas.height * 0.17;
 
 const angle = (Math.PI / 6);
 let index = 0;
-const q = 0.75; //Don't even try 0.83 or higher
+const q = 0.75; //Don't even try 0.80 or higher
 
 const drawLine = (x, y, s, a = 0) => {
     index++;
